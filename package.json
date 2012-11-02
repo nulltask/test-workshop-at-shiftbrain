@@ -1,5 +1,5 @@
 {
-  "name": "test",
+  "name": "math-test",
   "private": true,
   "version": "0.0.0",
   "dependencies": {
@@ -7,6 +7,9 @@
   },
   "devDependencies": {
     "mocha": "*",
-    "chai": "*"
+    "mocha-phantomjs": "*",
+    "should": "*",
+    "chai": "*",
+    "browserbuild": "*"
   }
 }
