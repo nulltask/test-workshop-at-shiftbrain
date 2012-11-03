@@ -1,6 +1,6 @@
 
 build:
-	@browserbuild -d -g math -m math -b lib/ lib > dist/math.js
+	@browserbuild -d -g Math -m math -b lib/ lib > dist/math.js
 
 test:
 	@mocha

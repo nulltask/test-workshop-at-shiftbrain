@@ -24,6 +24,18 @@ describe('Math', function() {
       Math.abs(-5.5).should.be.equal(5.5);
     });
   });
+  
+  describe('.sum()', function() {
+    it('a', function() {
+      Math.sum(10, 20, 30, 40).should.be.equal(100);
+    });
+  });
+  
+  describe('.avg()', function() {
+    it('a', function() {
+      Math.avg(0, 10).should.be.equal(5);
+    });
+  });
 });
 
 /**
